@@ -1,6 +1,7 @@
 #pragma once
 #ifndef Seres
 #define SERES
+#include "Perfil.h"
 using namespace std;
 
 class Colonias;
