@@ -3,6 +3,7 @@
 #include <vector>
 #include "edificios.h"
 #include "seres.h"
+#include "Perfil.h"
 using namespace std;
 
 class Colonias {
