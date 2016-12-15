@@ -1,5 +1,4 @@
-#include "colonias.h"
-#include "seres.h"
+#include "colonia.h"
 
 class Perfil : public Seres
 {
