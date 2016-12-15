@@ -1,7 +1,7 @@
 #include <sstream>
 #include <iostream>
-#include "colonias.h"
-#include "edificios.h"
+
+#include "edificio.h"
 
 
 Edificios::Edificios(const string & t, const int &e)
@@ -30,6 +30,11 @@ Edificios::~Edificios()
 
 }
 
+Edificios::Edificios()
+{
+}
+
+
 string Edificios::toString()
 {
 	ostringstream os;
@@ -37,12 +42,12 @@ string Edificios::toString()
 	return os.str();
 }
 
-void Edificios::restaura_edificios(int id)
+void Edificios::repoeSaude()
 {
-	vector <Edificios * > copia = edificios;
-	for (int i = 0; i < copia.size(); i++)
-		copia[i]->restaura_edificios(id);
+	this->estado_edif = 100;
 }
+
+
 
 const int Edificios::getID()
 {
