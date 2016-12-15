@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 #include <string.h>
 #include <sstream>
 
@@ -10,10 +10,11 @@ class GameEngine
 
 public:
 
-	void Comando(string comando) {
+	bool Comando(string comando) {
 
 		if (comando == "dim") {
- 
+			cout << "DOra";
+			return true;
 		}
 		if (comando == "oponentes") {
 
@@ -39,6 +40,7 @@ public:
 		if (comando == "inicio") {
 
 		}
+		return false;
 	}
 };
 
