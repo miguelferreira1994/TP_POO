@@ -4,7 +4,7 @@
 #include "Perfil.h"
 using namespace std;
 
-class Colonias;
+
 class Seres {
 	int id, vida;
 	static int conta;

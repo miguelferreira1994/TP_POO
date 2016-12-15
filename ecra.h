@@ -3,8 +3,6 @@ class ecra
 {
 
 
-
-
 public:
 	ecra();
 	~ecra();
