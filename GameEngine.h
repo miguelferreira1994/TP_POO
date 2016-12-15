@@ -13,7 +13,7 @@ public:
 	void Comando(string comando) {
 
 		if (comando == "dim") {
-
+ 
 		}
 		if (comando == "oponentes") {
 
